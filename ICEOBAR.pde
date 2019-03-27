@@ -5,7 +5,7 @@ HashMap<String, Integer> teamColours;
 HashMap<String, Destination> destinations;
 HashMap<String, Player> players;
 String previousKey = "";
-boolean saveImages = true;
+boolean saveImages = false;
 
 Calendar gameTimer = Calendar.getInstance();
 Calendar endTimer = Calendar.getInstance();
